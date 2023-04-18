@@ -1,0 +1,132 @@
+
+.myFlex{
+    display: flex;
+    flex-direction: column;
+}
+.imgP{
+    height: 604px;
+    width: 65%;
+    background-image: url(images/products1.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 200px;
+}
+.imgP2{
+    height: 604px;
+    width: 65%;
+    background-image: url(images/products2.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+}
+.imgP3{
+    height: 604px;
+    width: 65%;
+    background-image: url(images/products3.png);
+    background-repeat: no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textP1 h4, .textP2 h4, .textP3 h4, .textP4 h4, .textP5 h4, .textP6 h4{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* identical to box height */
+    color: #000000;
+}
+.textP1 h1, .textP2 h1, .textP3 h1, .textP4 h1, .textP5 h1, .textP6 h1{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 36px;
+    line-height: 44px;
+    
+    color: #000000;
+}
+.textP1 p, .textP2 p, .textP3 p, .textP4 p, .textP5 p, .textP6 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+
+    
+    color: #000000;
+}
+.textUni{
+    background: #F6E1C5;
+    border-radius: 5px;
+}
+.textP1{
+    position: absolute;
+    width: 413px;
+    right: 10%;
+    padding: 2em;
+}
+.textP2{
+    position: absolute;
+    width: 413px;
+    left: 10%;
+    top: 970px;
+    padding: 2em;
+}
+.textP3{
+    position: absolute;
+    width: 413px;
+    left: 10%;
+    top: 1225px;
+    padding: 2em;
+}
+.textP4{
+    position: absolute;
+    width: 413px;
+    right: 10%;
+    top: 1815px;
+    padding: 2em;
+}
+.textP5{
+    position: absolute;
+    width: 413px;
+    right: 10%;
+    top: 2080px;
+    padding: 2em;
+}
+.textP6{
+    position: absolute;
+    width: 413px;
+    left: 10%;
+    top: 2665px;
+    padding: 2em;
+}
+
+
+/* RESPONSIVE */
+@media screen AND (max-width: 1150px) {
+    /* Custom CSS */
+    /* h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3{
+        font-size: 20px;
+    } */
+    /* ______________*/
+    .textP1, .textP2, .textP3, .textP4, .textP5, .textP6, footer{
+    position: static;    
+    width: 100% ; 
+    }
+    .imgP, .imgP2, .imgP3{
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+  
+  
+}

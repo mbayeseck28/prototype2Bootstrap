@@ -1,0 +1,43 @@
+/* Page 2 */
+
+.cont{
+    display: flex;
+    flex-direction: column;
+}
+
+.imAbout{
+    background-image: url(images/page2.png);
+    height: 418px;
+    background-repeat: no-repeat;
+}
+.textAbout{
+    position: absolute;
+    height: 320px;
+    width: 50%;
+    margin-left: 20%;
+
+    top: 700px;
+    background: #F6E1C5;
+    border-radius: 5px;
+}
+
+
+
+@media screen AND (max-width: 1150px)  {
+
+    .textAbout, .imAbout, footer{
+        position: static;   
+    }
+    .textAbout{
+        background-color: #F6E1C5;
+        border-radius: 5px;
+        width: 100%;
+        margin: 0;
+    }
+    .cont{
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+    }
+
+}

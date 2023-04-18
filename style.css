@@ -1,0 +1,223 @@
+/* Page 1 et global */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/images/font.png);
+    background-attachment: fixed;
+}
+header h1{
+    font-weight: 200;
+    font-size: 76px;
+    line-height: 92.64px;
+}
+header h3{
+    color: #CB0D0D;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+}
+nav{
+    background-color: #490909;
+    width: 100%;
+}
+.navbar-toggler-icon{
+    color: #fff;
+}
+
+/* h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 45px;
+}
+h1{
+    font-weight: 200;
+    font-size: 300px;
+    line-height: 92.64px;
+} */
+
+/* Section1 */
+#section1{
+    clear: both;
+}
+.sup{
+    background-color: #F6E1C5;
+    width: 40%;
+    height: 370px;
+    border-radius: 5px;
+    position: absolute;
+    left: 132px;
+    top: 567px;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.supPol h4{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.19em;
+    color: #000000;
+}
+.supPol h1{
+    font-style: normal;
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    
+    color: #000000;
+}
+.supPol p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    color: #000000;
+}
+.supIm{
+    position: absolute;
+    width: 60%;
+    height: 576.04px;
+    left: 444px;
+    top: 504px;
+    background-image: url(images/img1.png);
+    background-repeat: no-repeat;
+}
+.bouton{
+    position: absolute;
+    left: 302px;
+    top: 908px; 
+    background-color: #7B261A;
+    width: 194px;
+    height: 68px;
+    border-radius: 5px;
+    border: none;
+    z-index: 1000;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* section2 */
+#section2{
+    position: absolute;
+    width: 100%;
+    height: 535px;
+    top: 1182px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    background: rgba(165, 52, 43, 0.69);
+}
+.milieu{
+    background: #F6E1C5;
+    border-radius: 5px;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+    border: thick double rgba(165, 52, 43, 0.69);
+    
+}   
+.parag{
+    margin: 0 26%;
+}
+
+/* FOOTER */
+footer{
+    position: absolute;
+    width: 100%;
+    height: 162px;
+    top: 1819px;
+    background: #311919;  
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;  
+}
+footer p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.94px;
+    color: #fff;
+    text-align: center;
+}
+/* Page 1 fin */
+
+
+
+
+
+
+/* RESPONSIVE */
+@media screen AND (max-width: 1150px) {
+    /* Custom CSS */
+    /* h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    h3{
+        font-size: 20px;
+    } */
+    /* ______________*/
+    
+    /* Page 1 et global */
+  .sup, .supIm, .bouton, #section2, footer{
+    position: static;
+  }
+  .supIm{
+    display: none;
+  }
+  .sup{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .bouton{
+    width: 100px;
+    height: 50px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .parag{
+    margin: 0 10%;
+  }
+  .entete{
+    display: flex;
+    flex-direction: column;
+  }
+  nav{
+    order: -1;
+    margin-top: 1em;
+  }
+  /* Page 1 et global fin*/
+  
+  
+}
+
+/* Page 1 et global fin */
+
+@media screen AND (max-width: 767px) {
+    h1{
+        font-size: 40px;
+        line-height: 48px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    P{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    /* __________________ */
+    
+    
+}
